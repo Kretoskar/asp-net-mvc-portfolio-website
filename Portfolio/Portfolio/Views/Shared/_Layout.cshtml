@@ -18,10 +18,35 @@
                 </button>
                 @Html.ActionLink("Oskar Kogut", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
+            <ul class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("O mnie", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Projekty", "Projects", "Home")</li>
+                    @*<li class="@Html.ActionLink("Projekty", "Projects", "Home") dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Projekty
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+                <li>@Html.ActionLink("Unity", "Projects", "Home")</li>
+                <li>@Html.ActionLink("WPF", "Projects", "Home")</li>
+                <li>@Html.ActionLink("Xamarin", "Projects", "Home")</li>
+                <li>@Html.ActionLink("Android", "Projects", "Home")</li>
+            </ul>
+        </li>*@
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projekty
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDropdown">
+                            <li>@Html.ActionLink("Unity", "Unity", "Home")</li>
+                            <li>@Html.ActionLink("WPF", "Wpf", "Home")</li>
+                            <li>@Html.ActionLink("Xamarin", "Xamarin", "Home")</li>
+                            <li>@Html.ActionLink("Android", "Android", "Home")</li>
+                        </ul>
+                    </li>
+
                     <li>@Html.ActionLink("CV", "CV", "Home")</li>
                     <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
                 </ul>

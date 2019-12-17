@@ -18,12 +18,32 @@ namespace Portfolio.Controllers
             return View();
         }
 
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
         public ActionResult CV()
         {
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Unity()
+        {
+            return View();
+        }
+
+        public ActionResult Wpf()
+        {
+            return View();
+        }
+
+        public ActionResult Xamarin()
+        {
+            return View();
+        }
+
+        public ActionResult Android()
         {
             return View();
         }

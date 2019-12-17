@@ -162,6 +162,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="Views\Home\CV.cshtml" />
+    <Content Include="Views\Home\Unity.cshtml" />
+    <Content Include="Views\Home\Wpf.cshtml" />
+    <Content Include="Views\Home\Xamarin.cshtml" />
+    <Content Include="Views\Home\Android.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
