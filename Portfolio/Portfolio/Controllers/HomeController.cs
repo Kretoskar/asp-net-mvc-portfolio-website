@@ -25,7 +25,8 @@ namespace Portfolio.Controllers
 
         public ActionResult CV()
         {
-            return View();
+            string fileName = "~/Content/CV_Oskar_Kogut.pdf";
+            return File(fileName, "application/pdf");
         }
 
         public ActionResult Unity()
