@@ -1,18 +1,86 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<img src="~/Content/pobrane.png" alt="zdjecie prof" style="margin-top: 20px;margin-right: 20px"/>
-<p style="padding-top: 20px" />
-<p>Mam na imię Oskar. 
-    Jestem studentem drugiego roku informatyki,aktualnie na urlopie dziekańskim. 
-    Od najmłodszych lat interesowałem się grami wideo, a zwłaszcza procesem ich tworzenia. 
-    Zacząłem od pisania prostych role plejów w RPG makerze, potem przyszła kolej na naukę Unity i C#.
-    Od tego czasu napisałem kilka gier mobilnych, z czego dwie wydałem. 
-    Swoje doświadczenie opieram także na projektach w takich technologiach jak WPF, xamarin, czy android. 
-    W procesie nauki zdobyłem takie certyfikaty jak:
-    Cisco - IT Essentialls, Google/Udacity - Android basics nanodegree, Unity/Courseera - Core interaction programming.
-    Znam wzorce projektowe stosowane w produkcji gier, oraz MVVM i MVC.
-    Stosuję zasady SOLID, oraz inne pozwalające mi pisać czysty kod.
-    Potrafię pisać dokumentację projektu, testy jednostkowe, oraz GIT.
-    Jeśli interesuje Cię moja twórczość, zapraszam do sekcji "Projekty", gdzie oprócz szczegółowego omówienia poszczególnych
-    właściwości gier i aplikacji, dostępny jest mój kod.</p>
+@*<img src="~/Content/pobrane.png" alt="zdjecie prof" style="margin-top: 20px;margin-right: 20px"/>*@
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/aboutme.css"/>
+</head>
+
+@*<div class="header">
+    <h2><b>Oskar Kogut</b></h2>
+</div>*@
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2><b>O mnie</b></h2>
+            <h4 style="line-height: 25px">
+                Jestem studentem drugiego roku informatyki,aktualnie na urlopie dziekańskim.
+                Od najmłodszych lat interesuję się grami wideo, a zwłaszcza procesem ich tworzenia.
+                Zacząłem od pisania prostych role plejów w RPG makerze, potem przyszła kolej na naukę Unity i C#.
+                Od tego czasu napisałem kilka gier mobilnych, z czego dwie wydałem.
+                Swoje doświadczenie opieram także na projektach w takich technologiach jak WPF, xamarin, czy android.
+                Znam wzorce projektowe stosowane w produkcji gier, oraz MVVM i MVC.
+                Stosuję zasady SOLID, oraz inne pozwalające mi pisać czysty, zoptymalizowany i niezawodny kod.
+                Potrafię pisać dokumentację projektu, testy jednostkowe, znam GIT.
+                Analityczny umysł pozwala mi stosować niezbędną w game devie analizę matematyczną i algebrę liniową.
+                Nie mam problemu z komunikacją i czytaniem dokumentacji technicznej po angielsku.
+                Oprócz gier, interesuję się deskorolką i astrofotografią.
+                Jeśli Cię zainteresowałem, zapraszam do sekcji "Projekty", gdzie oprócz szczegółowego omówienia poszczególnych
+                właściwości gier i aplikacji, dostępny jest mój kod.
+            </h4>
+        </div>
+        <div class="card">
+            <h2 style="margin-bottom: 20px"><b>Prezentacja projektów</b></h2>
+            <h4 style="margin-top: 20px">Po szczegółowy opis projektów, wraz z kodem, zapraszam do sekcji "Projekty".</h4>
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2><b>Certyfikaty</b></h2>
+            <ul>
+                <li><h4><b>Cisco</b> <br> </h4><h5>IT Essentialls</h5></li>
+                <li><h4><b>Google/Udacity</b> <br> </h4><h5>Android basics nanodegree</h5></li>
+                <li><h4><b>Unity/Coursera</b> <br> </h4><h5>Core interaction programming</h5></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><b>Opublikowane gry i aplikacje</b></h3>
+            <ul style="margin-top: 20px">
+                <li>
+                    <h4>
+                        <a href="https://play.google.com/store/apps/details?id=com.LewdCircus.HypercasualTriCubes&hl=pl">
+                            <b>Tri cubes</b>
+                        </a>
+                    </h4>
+                </li>
+                <li>
+                    <h4>
+                        <a href="https://play.google.com/store/apps/details?id=com.LewdCircus.PongstacheLC&hl=pl">
+                            <b>Pongstache</b>
+                        </a>
+                    </h4>
+                </li>
+                <li>
+                    <h4>
+                        <a href="">
+                            <b>Spoty w Rzeszowie</b>
+                        </a>
+                    </h4>
+                </li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2><b>Kontakt</b></h2>
+            <h4 style="margin-top: 20px">
+                <p><b>Email: </b> <br> kogutoskar123@gmail.com</p>
+                <p><b>Tel.:</b> <br> 790 278 345</p>
+                <p><b><a href="http://github.com/kretoskar">Github</a></b></p>
+                <p><b><a href="https://www.linkedin.com/in/oskar-kogut/?originalSubdomain=pl">Linkedin</a></b></p>
+            </h4>
+        </div>
+    </div>
+</div>
